@@ -271,7 +271,7 @@
 
                 <!-- Schedule --> <!--Added by dagadam -->
                 <li class="menu-schedule<?php if ($scriptname === 'schedule.php') { ?> active<?php } ?>">
-                    <a href="queries.php">
+                    <a href="schedule.php">
                         <i class="fa fa-fw menu-icon fa-file-alt"></i> <span>Schedule</span>
                     </a>
                 </li>
