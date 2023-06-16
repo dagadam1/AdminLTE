@@ -25,7 +25,7 @@ require 'scripts/pi-hole/php/header_authenticated.php';
             <!-- /.box-header -->
             <div class="box-header with-border">
                 <h3 class="box-title">
-                    Add a new adlist
+                    Add a new scheduled adlist
                 </h3>
             </div>
             <!-- /.box-header -->
@@ -38,6 +38,14 @@ require 'scripts/pi-hole/php/header_authenticated.php';
                     <div class="form-group col-md-6">
                         <label for="new_comment">Comment:</label>
                         <input id="new_comment" type="text" class="form-control" placeholder="Adlist description (optional)">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="new_start_time">Start time:</label>
+                        <input type="time" name="end_time" id="new_start_time">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="new_end_time">End time:</label>
+                        <input type="time" name="end_time" id="new_end_time">
                     </div>
                 </div>
             </div>
