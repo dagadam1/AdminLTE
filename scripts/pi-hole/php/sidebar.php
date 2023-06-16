@@ -276,6 +276,13 @@
                     </a>
                 </li>
 
+                <!-- Built-in blocking --> <!--Added by dagadam -->
+                <li class="menu-builtin<?php if ($scriptname === 'builtin.php') { ?> active<?php } ?>">
+                    <a href="builtin.php">
+                        <i class="fa fa-fw menu-icon fa-file-alt"></i> <span>Built-in blocking</span>
+                    </a>
+                </li>
+
                 <!-- Donate button -->
                 <li class="header text-uppercase">Donate</li>
                 <li class="menu-donate">
